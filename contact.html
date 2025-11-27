@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="theme-color" content="#0C7C59"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+
+  <title>Get Involved | EcoBricks Initiative</title>
+  <meta name="description" content="Join the Ecobricks Initiative. Register your project, volunteer, or request a workshop. Privacy-friendly form.">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="logo" href="index.html">EcoBricks Initiative</a>
+  <nav>
+    <a href="what-are-ecobricks.html">What Are Ecobricks</a>
+    <a href="how-to.html">How‑To</a>
+    <a href="community.html">Community</a>
+    <a class="btn btn-cta" href="contact.html">Get Involved</a>
+  </nav>
+</header>
+
+<main class="container">
+  <h1>Get Involved</h1>
+  <form class="contact-form" onsubmit="return fakeSubmit(event)">
+    <label>
+      Name
+      <input type="text" required placeholder="Your name"/>
+    </label>
+    <label>
+      Email
+      <input type="email" required placeholder="you@example.com"/>
+    </label>
+    <label>
+      How would you like to help?
+      <select required>
+        <option value="">Choose an option</option>
+        <option>Register a project</option>
+        <option>Volunteer</option>
+        <option>Request a workshop</option>
+      </select>
+    </label>
+    <label>
+      Tell us about your plan
+      <textarea rows="4" placeholder="Briefly describe your ecobricks plan"></textarea>
+    </label>
+    <button class="btn btn-cta btn-lg" type="submit" data-intent="form-submit">Submit</button>
+  </form>
+  <section class="privacy-note card">
+    <h2>Privacy & Ethics</h2>
+    <p>We collect only what you submit and use it solely to respond. No selling of data, no unsolicited marketing. Cookies are limited to essential functionality. We avoid dark patterns and promote informed choice.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>© 2025 EcoBricks Initiative. Designed with ethics-first principles. No dark patterns. Minimal cookies.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
